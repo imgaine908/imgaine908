@@ -1,3 +1,12 @@
+// ==UserScript==
+// @name         **FREE SKINS** **WORKING OCTOBER 2021** (Shell Shockers.io)
+// @version      0.3
+// @description  Access to every skin in shell shockers? Here you go!
+// @match        *://shellshock.io/*
+// @run-at       document-start
+// @grant        unsafeWindow
+// @namespace    https://greasyfork.org/users/815159
+// ==/UserScript==
 (function () {
     unsafeWindow.XMLHttpRequest = class extends unsafeWindow.XMLHttpRequest {
         constructor() {
